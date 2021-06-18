@@ -1,0 +1,176 @@
+
+body{
+    background-image: url(images/new1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.tile1,.tile2,.tile3,.tile4,.tile5,.tile6,.tile7,.tile8,.tile9,.tile10,.tile11,.tile12,.tile13,.tile14,.tile15,tile16{
+    display: table-cell;
+    width:227px;
+    height: 143.25px;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: url("images/image1.png");
+    cursor: pointer;
+}
+.tile1{
+    background-position: 0 0 ;
+}
+.tile2{
+    background-position:33.33% 0 ;
+}
+.tile3{
+    background-position: 66.66% 0 ;
+}
+.tile4{
+    background-position: 100% 0 ;
+}
+.tile5{
+    background-position: 0 33.33% ;
+}
+.tile6{
+    background-position:33.33% 33.33% ;
+}
+.tile7{
+    background-position: 66.66% 33.33% ;
+}
+.tile8{
+    background-position: 100% 33.333%;
+}
+.tile9{
+    background-position: 0 66.666% ;
+}
+.tile10{
+    background-position:33.333% 66.666%;
+}
+.tile11{
+    background-position:66.666% 66.666% ;
+}
+.tile12{
+    background-position:100% 66.666% ;
+}.tile13{
+    background-position: 0 100%;
+}
+.tile14{
+    background-position:33.333% 100% ;
+}
+.tile15{
+    background-position: 66.666% 100%;
+}
+.tile16{
+    background: none;
+    border:none;
+    cursor: default;
+}
+.button1{
+    width: 150px;
+    height: 80px;
+    
+    border: 5px solid aquamarine;
+    border-radius: 30px;
+    background-color: darkseagreen;
+    text-align: center;
+    color: darkorange;
+    font-size: 25px;
+    font-family: 'Sofia';
+}
+.button1:hover{
+    width: 165px;
+    height: 88px;
+    cursor: grab;
+}
+.time{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 20px;
+}
+.noofmoves{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 20px;
+}
+.head{
+    color: deeppink;
+    font-family:'Aclonica'; 
+    font-size: 4.5rem;
+}
+.link{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 3.2rem;
+    text-decoration: none;
+    
+}
+.link:hover{
+    font-size: 2.8rem;
+    color: blueviolet;
+    background-color: #D65CD6;
+      -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+      -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+      box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+.foot{
+    font-size: 2rem;
+    color: #f038ff;
+    position: static;
+    top: 90%;
+    left:30%;
+    
+    font-family: 'sofia';
+}
+.name{
+    color: #f038ff;
+    font-family: 'sofia';
+    text-decoration: none;
+}
+    
+
+.name:hover{
+    background-color: silver;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    background-color: silver;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.winning
+{
+    color: red;
+    font-family: 'sofia';
+    font-size: 40px;
+    
+}

@@ -1,0 +1,216 @@
+
+body{
+    background-image: url(images/new2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.tile1,.tile2,.tile3,.tile4,.tile5,.tile6,.tile7,.tile8,.tile9,.tile10,.tile11,.tile12,.tile13,.tile14,.tile15,.tile16,.tile17,.tile18,.tile19,.tile20,.tile21,.tile22,.tile23,.tile24,.tile25{
+    display: table-cell;
+    width:100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+.tile1{
+    background: url("images/nu1.jpg");
+    
+}
+.tile2{
+    background: url("images/nu2.jpg");
+}
+.tile3{
+    background: url("images/nu3.jpg");
+}
+.tile4{
+    background: url("images/nu4.jpg");
+}
+.tile5{
+    background: url("images/nu5.jpg");
+}
+.tile6{
+    background: url("images/nu6.jpg");
+}
+.tile7{
+    background: url("images/nu7.jpg");
+}
+.tile8{
+    background: url("images/nu8.jpg");
+}
+.tile9{
+    background: url("images/nu9.jpg");
+}
+.tile10{
+    background: url("images/nu10.jpg");
+}
+.tile11{
+    background: url("images/nu11.jpg");
+}
+.tile12{
+    background: url("images/nu12.jpg");
+}.tile13{
+    background: url("images/nu13.jpg");
+}
+.tile14{
+    background: url("images/nu14.jpg");
+}
+.tile15{
+    background: url("images/nu15.jpg");
+}
+.tile16{
+    background: url("images/nu16.jpg");
+}
+.tile17{
+   background: url("images/nu17.jpg");
+}
+.tile18{
+    background: url("images/nu18.jpg");
+}
+.tile19{
+    background: url("images/nu19.jpg");
+}
+.tile20{
+    background: url("images/nu20.jpg");
+}
+.tile21{
+    background: url("images/nu21.jpg");
+}
+.tile22{
+    background: url("images/nu22.jpg");
+}
+.tile23{
+    background: url("images/nu23.jpg");
+}
+.tile24{
+    background: url("images/nu24.jpg");
+}
+.tile25{
+    background: none;
+    border: none;
+    cursor: default;
+}
+.button1{
+    width: 150px;
+    height: 80px;
+    
+    border: 5px solid aquamarine;
+    border-radius: 30px;
+    background-color: darkseagreen;
+    text-align: center;
+    color: darkorange;
+    font-size: 25px;
+    font-family: 'Sofia';
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button1:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    opacity: 0;
+    transition: all 0.8s;
+}
+.button1:active:after
+{
+    opacity: 1;
+    transition: 0;
+}
+.button1:hover{
+    width: 165px;
+    height: 88px;
+    cursor: grab;
+}
+.time{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 20px;
+}
+.noofmoves{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 20px;
+}
+.head{
+    color: deeppink;
+    font-family:'Aclonica'; 
+    font-size: 4.5rem;
+}
+.link{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 3.2rem;
+    text-decoration: none;
+    
+}
+.link:hover{
+    font-size: 2.8rem;
+    color: blueviolet;
+    background-color: #D65CD6;
+      -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+      -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+      box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+.foot{
+    font-size: 2rem;
+    color: #f038ff;
+    position: static;
+    top: 90%;
+    left:30%;
+    font-family: 'sofia';
+}
+.name{
+    color: #f038ff;
+    font-family: 'sofia';
+    text-decoration: none;
+}
+    
+
+.name:hover{
+    background-color: silver;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    background-color: silver;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.winning
+{
+    color: red;
+    font-family: 'sofia';
+    font-size: 40px;
+    
+}

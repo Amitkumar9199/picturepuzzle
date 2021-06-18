@@ -1,0 +1,66 @@
+function swaptiles(cell1 , cell2){
+    var temp = document.getElementById(cell1).className;
+    document.getElementById(cell1).className=document.getElementById(cell2).className;
+    document.getElementById(cell2).className = temp ;
+}
+
+function shuffle(){
+    for(var x=1;x<=3;x++){
+        for(var y=1;y<=3;y++){
+            var row2=Math.floor(Math.random()*3+1);
+            var coloumn2=Math.floor(Math.random()*3+1);
+            swaptiles("cell"+x+y,"cell"+row2+coloumn2);
+        }
+    }
+}
+function clicktile(row,coloumn)
+{
+    var cell=document.getElementById("cell"+row+coloumn);
+    var tile=cell.className;
+    if(tile!="tile9"){
+        if(coloumn>1){
+            if(document.getElementById("cell"+row+(coloumn-1)).className=="tile9"){
+                swaptiles("cell"+row+coloumn,"cell"+row+(coloumn-1));
+                return ;
+            }
+        }
+        if(coloumn<3){
+            if(document.getElementById("cell"+row+(coloumn+1)).className=="tile9"){
+                swaptiles("cell"+row+coloumn,"cell"+row+(coloumn+1));
+                return ;
+            }
+        }
+        if(row>1){
+            if(document.getElementById("cell"+(row-1)+coloumn).className=="tile9"){
+                swaptiles("cell"+row+coloumn,"cell"+(row-1)+coloumn);
+                return ;
+            }
+
+        }
+        if(row<3){
+            if(document.getElementById("cell"+(row+1)+coloumn).className=="tile9"){
+                swaptiles("cell"+row+coloumn,"cell"+(row+1)+coloumn);
+                return ;
+            }
+        }
+    }
+}
+********
+function swapTiles(cell1,cell2) {
+  var temp = document.getElementById(cell1).className;
+  document.getElementById(cell1).className = document.getElementById(cell2).className;
+  document.getElementById(cell2).className = temp;
+}
+
+function shuffle() {
+//Use nested loops to access each cell of the 3x3 grid
+for (var row=1;row<=3;row++) { //For each row of the 3x3 grid
+   for (var column=1;column<=3;column++) { //For each column in this row
+  
+    var row2=Math.floor(Math.random()*3 + 1); //Pick a random row from 1 to 3
+    var column2=Math.floor(Math.random()*3 + 1); //Pick a random column from 1 to 3
+     
+    swapTiles("cell"+row+column,"cell"+row2+column2); //Swap the look & feel of both cells
+  } 
+} 
+}

@@ -1,0 +1,137 @@
+
+body{
+    background-image: url(images/new1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.tile1,.tile2,.tile3,.tile4,.tile5,.tile6,.tile7,.tile8,.tile9{
+    display: table-cell;
+    width:120px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.tile1{
+    background: url("images/num1.jpg");
+}
+.tile2{
+    background: url("images/num2.jpg");
+}
+.tile3{
+    background: url("images/num3.jpg");
+}
+.tile4{
+    background: url("images/num4.jpg");
+}
+.tile5{
+    background: url("images/num5.jpg");
+}
+.tile6{
+    background: url("images/num6.jpg");
+}
+.tile7{
+    background: url("images/num7.jpg");
+}
+.tile8{
+    background: url("images/num8.jpg");
+}
+.tile9{
+    background: none;
+    border:none;
+    cursor: default;
+}
+.button1{
+    width: 150px;
+    height: 80px;
+    border: 5px solid grey;
+    border-radius: 30px;
+    background-color: darkorchid;
+    text-align: center;
+    color: darkorange;
+    font-size: 25px;
+    font-family: 'Sofia';
+}
+.button1:hover{
+    cursor: grab;
+}
+.foot{
+    font-size: 2rem;
+    color: #f038ff;
+    position: static;
+    top: 90%;
+    left:30%;
+    font-family: 'sofia';
+}
+.name{
+    color: #f038ff;
+    font-family: 'sofia';
+    text-decoration: none;
+}
+    
+
+.name:hover{
+    background-color: silver;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    background-color: silver;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.time{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 20px;
+}
+.noofmoves{
+    color: aliceblue;
+    font-family: 'sofia';
+    font-size: 20px;
+}
+.winning
+{
+    color: red;
+    font-family: 'sofia';
+    font-size: 40px;
+    
+}
+.head{
+    color: deeppink;
+    font-family:'Aclonica'; 
+    font-size: 4.5rem;
+}
